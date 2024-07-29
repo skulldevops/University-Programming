@@ -18,13 +18,15 @@
         <!-- This gives the user a chance to think twice about their selection -->
         <h2 id="correct"> Select the correct Answer</h2>
         <!-- Then the game starts here by clicking one of the 2 buttons.
-         Clicking the 3rd will reset the game, refreshing the page -->
+         Clicking the Reset will reset the game, refreshing the page -->
         <button id="true" onclick="updateText(true);"> 1 </button>
         <!-- I add a "1" button to my game -->
         <button id="false" onclick="updateText(false);"> 2</button>
         <!-- I also add a "2" button to create another choice for the user,
          a "this or that" type of situation -->
         <button id="next" onclick="updateText();"> End Game </button>
+        <!-- This skip button is optional but adding it for fun and adding more options
+         to the game-->
         <button id="reset" onclick="open (game.html)"> Reset </button>
         <!-- My last button is a "reset" button to reopen the game.html file again. -->
     </header>
