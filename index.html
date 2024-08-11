@@ -2,14 +2,35 @@
 <html>
     <head> 
         <link rel="stylesheet" href="main.css">
-    <Title> A Cool Title</Title>
+        <style> 
+            #image {
+                display: none;
+            }
+            #start {
+                display: show
+            }
+        </style>
+            <script>
+                function show() {
+                        document.getElementById("image").style.display = "block";
+                function refreshPage(){
+                        window.location.reload();
+                }
+                }
+                </script>
+    <Title> pepe</Title>
     </head>
     <body>
+        <div>
         <h1> Pepe...</h1>
-        <h3> <i>Does He Deserve It?</i></h3>
-        <p>
-            <img src="pepe.png" alt="">
-        </p>
+        <p>___________________________</p>
+        <h3> <i>Does He Deserve It?</i> </h3>
+            <img id="image" src="pepe.png" height="70px" width="70px">
+            Does Pepe Live?
+    </div>
+        <button id="start" onclick="show()"> Start </button>
+        <button onclick="window.location.reload()"> Stop </button>
+        <p>___________________________</p>
         <h6> <i>Geoffery, Web Developer since 2028</i></h6>
     </body>
 </html>
