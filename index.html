@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+<!-- Nivea Parker -->
 <html>
     <head> 
+        <!-- I start with linking my style sheet to main.css -->
         <link rel="stylesheet" href="main.css">
-        <style> 
+        <!-- Next I style too remove my image script, or hiding my elements-->
+        <style>
             #image {
                 display: none;
             }
@@ -10,6 +13,7 @@
                 display: show
             }
         </style>
+        <!-- Next I add a script tag to enter code within the HTML -->
             <script>
                 function show() {
                         document.getElementById("image").style.display = "block";
@@ -18,9 +22,11 @@
                 }
                 }
                 </script>
+        <!-- Next is my title for this HTML page -->
     <Title> pepe</Title>
     </head>
     <body>
+        <!-- Adding a div tags and adding text -->
         <div>
         <h1> Pepe...</h1>
         <p>___________________________</p>
@@ -28,8 +34,10 @@
             <img id="image" src="pepe.png" height="70px" width="70px">
             Does Pepe Live?
     </div>
+    <!-- Now for my button I added a simple onclick event to 2 buttons -->
         <button id="start" onclick="show()"> Start </button>
         <button onclick="window.location.reload()"> Stop </button>
+        <!-- Names -->
         <p>___________________________</p>
         <h6> <i>Geoffery, Web Developer since 2028</i></h6>
     </body>
