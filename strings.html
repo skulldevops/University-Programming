@@ -30,6 +30,14 @@
         margin-top: 20px;
         font-size: 18px;
         }
+        #audio {
+                display: show;
+                margin: 25px;
+                padding: 75px;
+                height: 23px;
+                width: 100px;
+                opacity: 1.35%;
+        }
         </style>
     <!--The heading of my page -->
 <body>
@@ -48,11 +56,16 @@
         <!--My button commands on click and user input text area for user access and
         secret message -->
     <h3 id="access"> User Access</h3>
-        <input id="user" type="input" placeholder="First">
-        <input id="user1" type="input" placeholder="Last">
+        <input id="user" type="text" placeholder="First">
+        <input id="user1" type="text" placeholder="Last">
         <input id="myInput" type="input" placeholder="Zip Code">
         <button id="myButton" disabled>Submit</button>
     <br>
+    <p>_____________________________________________</p>
+    <!--When the bell is selected, it will ring forever until stopped -->
+    <h2><i> Locate the bell</i></h2>
+    <audio controls src="service-bell_daniel_simion.mp3" autoplay loop id="audio">
+    </audio>
     </head>
 </p>
 </body>
