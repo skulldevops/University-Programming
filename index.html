@@ -12,14 +12,23 @@
             #start {
                 display: show
             }
+            #audio {
+                display: show;
+                margin: 1px;
+                padding: 1px;
+                height: 150px;
+                width: 125px;
+                opacity: 1.35%;
+            }
         </style>
         <!-- Next I add a script tag to enter code within the HTML -->
             <script>
                 function show() {
                         document.getElementById("image").style.display = "block";
+                        document.getElementById("audio").style.display = "block"
                 function refreshPage(){
                         window.location.reload();
-                }
+                }   
                 }
                 </script>
         <!-- Next is my title for this HTML page -->
@@ -40,5 +49,11 @@
         <!-- Names -->
         <p>___________________________</p>
         <h6> <i>Geoffery, Web Developer since 2028</i></h6>
+        <p>___________________________</p>
+        <h2> Locate the Bell</h2>
+        <h3 id="object"> <i> Find the bell in the abyss</i> </h3>
+        <!-- This is where I add my embedded audio on the page -->
+        <audio controls src="service-bell_daniel_simion.mp3" autoplay loop id="audio">
+        </audio>
     </body>
 </html>
