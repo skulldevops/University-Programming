@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Nivea Parker -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,26 +10,44 @@
     <link rel="stylesheet" href="main.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+        <!-- Added navigation for the user-->
+        <p>             
+            <div class="topnav">
+        <tr><td><a href="everything.html" id="home"> Home </a></td>
+        <br>
+        <tr><td><a href="index.html" id="pepe"> Pepe Lives </a></td>
+        <br>
+        <tr><td><a href="strings.html" id="strings"> Palindrome Checker </a></td>
+        <br>
+        <tr><td><a href="boards.html" id="boards"> UAT Boards </a></td>
+        <br>
+        </p>
         <!-- This is the title for my button game, I made sure to add an ID so I
          can change the text upoun clicking the right button -->
-        <h1 id="game"> The Mathster Says...</h1>
+        <header><h1 id="game"> The Mathster Says...</h1></header>
         <!-- This is a very simple click the button game -->
         <h2 id="question"> 3-2=... </h2>
         <!-- This gives the user a chance to think twice about their selection -->
         <h2 id="correct"> Select the correct Answer</h2>
         <!-- Then the game starts here by clicking one of the 2 buttons.
-         Clicking the Reset will reset the game, refreshing the page -->
+         Clicking the 3rd will reset the game, refreshing the page -->
         <button id="true" onclick="updateText(true);"> 1 </button>
         <!-- I add a "1" button to my game -->
         <button id="false" onclick="updateText(false);"> 2</button>
         <!-- I also add a "2" button to create another choice for the user,
          a "this or that" type of situation -->
         <button id="next" onclick="updateText();"> End Game </button>
-        <!-- This skip button is optional but adding it for fun and adding more options
-         to the game-->
         <button id="reset" onclick="open (game.html)"> Reset </button>
         <!-- My last button is a "reset" button to reopen the game.html file again. -->
+        <p>
+            <p>____________________________</p>
+        <!-- Added download button -->
+        <h3><i> Like what you see?</i></h3>
+        <a href="boards.html" download="boards.html">Download This Page</a>
+        </p>
     </header>
+    <p>____________________________</p>
+    <footer> 
+    </footer>
 </body>
 </html>

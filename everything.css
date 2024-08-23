@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(222, 173, 113);
+    border: 55px;
+    margin: 55px;
+    padding: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 45px;
+    height: 250px;
+    width: 250px;
+
+}
+#assignments.floating { 
+	animation-name: floating;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 35px;
+	margin-top: 15px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); } 
+}
+#assign {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    box-shadow: 25px;
+}
+#assignments {
+    background-origin: padding-box;
+    border-radius: 5px;
+    border: 10px;
+    box-shadow: 50px;
+}
